@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 713px;
+    height: 297px;
+    margin: 10% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* justify-content: center; */
+    background-color: #fff;
+    height: 297px;
+    width: 550px;
+    border-radius: 24px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.wlink ul li {
+    display: inline-block;
+}
+
+.dlt img {
+    background-color: #F4EDFF;
+    cursor: pointer;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 32px;
+    right: 32px;
+    background-color: #F4EDFF;
+
+}
+
+.main h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 72px 214px 0 72px;
+    color: #38196B;
+}
+
+.wlink {
+    margin: 24px 249px 0 72px;
+}
+
+.wlink ul li i {
+    height: 54px;
+    width: 54px;
+    background: #CD8AFF;
+    color: #fff;
+    padding: 16.25px 17.67px 21.92px 17.67px;
+    margin-right: 8px;
+    border-radius: 17px;
+    cursor: pointer;
+
+}
+
+.wlink ul li h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+
+
+}
+
+.btn {
+    margin: 10px 32px 46px 308px;
+    background-color: #fff;
+}
+
+.btn button {
+    height: 51px;
+    width: 97px;
+    border-radius: 8px;
+    padding: 12px 24px 12px 24px;
+    border: 1px solid #0ABE31;
+    color: #0ABE31;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+
+
+}
+
+.btn #btn1 {
+    margin-right: 8px;
+    border: 1px solid #FF1212;
+    color: #FF1212;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    cursor: pointer;
+
+
+}
+
+.bgc {
+    width: 713px;
+    height: 175px;
+    background: #CD8AFF;
+    border-radius: 30px;
+    z-index: -1;
+    position: absolute;
+    /* margin: 0 auto; */
+
+
+}
